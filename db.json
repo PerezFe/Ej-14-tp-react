@@ -1,0 +1,25 @@
+{
+  "receta": [
+    {
+      "titulo": "Pizza",
+      "pasos": " En un bol o taza, colocar la levadura y media taza de agua tibia, agregándole la cucharada de azúcar. Mezclar bien hasta que se formen burbujas, tapar con un nylon y dejar levar más o menos 10 minutos. \n  En otro bol, colocarla harina y mezclarla con sal. Hacer un hueco en el centro y luego volcar la media taza de agua con la levadura dentro. Incorporar el resto del agua tibia. Unir, con ambas manos, todos los ingredientes y formar una masa. Agregar, en forma de hilo, el aceite y continuar amasando. \n Dejar descansar la masa para pizza alrededor de 15 minutos y luego volver a amasarla sobre una mesa con harina. Dividir la masa en dos bollos del mismo tamaño. \n Estirar la masa hasta lograr un círculo, poner la masa en una fuente para pizza y dejarla descansar en un lugar templado hasta que leve. Alrededor de 15 minutos. \n Llevar a un horno fuerte durante seis minutos. La importancia de este tiempo es para que la masa esté bien cocida.\n Agregar una cucharada abundante de salsa de tomate, desparramar y llevar al horno dos o tres minutos más. Se le puede agregar muzzarella, jamón cocido, cebolla y hasta algunas rodajas tomate, según tu preferencia. Receta finalizada, ¡y a disfrutar!",
+      "ingredientes": "1/2 kilo de harina, 25 grm de pan de levadura fresco, 1/2 cucharada de sal, 4 cucharadas de aceite de oliva, 1 taza de agua tibia",
+      "imagen": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 1
+    },
+    {
+      "titulo": "Galletas Caseras",
+      "pasos": " Precalentamos el horno a 180ºC. Batimos la mantequilla con el azúcar hasta obtener una mezcla con textura de crema completamente homogénea.  Añadimos la harina tamizada y el bicarbonato (que es opcional pero muy recomendable) cucharada a cucharada según vamos mezclándolo todo. Hacemos bolas y las aplastamos para darle forma a las galletas de unos 6 cm de ancho y 3 mm de espesor. Las ponemos en papel vegetal sobre una bandeja de horno. Horneamos 12 minutos a 180ºC con calor arriba y abajo. Vigilad que no se pasen porque cada horno es un mundo y si son de diferente tamaño necesitarán más o menos tiempo. Sacamos las galletas del horno y las ponemos a enfriar sobre una rejilla unos 15 minutos. ",
+      "ingredientes": "Harina 180g, Mantequilla, 120g, Azucar 60g, Bicarbonato 1/4 cucharadilla, Esencia de vainilla",
+      "imagen": "https://s1.eestatic.com/2020/04/16/cocinillas/recetas/postres/reposteria-galletas-postres_482962222_150389309_1024x576.jpg",
+      "id": 2
+    },
+    {
+      "titulo": "Donuts",
+      "pasos": "Hacer muffins en casa es muy sencillo, solo necesitas reunir los ingredientes indicados y los utensilios adecuados, como un boll grande, moldes para magdalenas, varillas eléctricas o manuales y un colador. Dicho esto, empezamos batiendo la mantequilla a temperatura ambiente con el azúcar. Luego, para conseguir que los muffins caseros fáciles de hacer queden bien esponjosos, separamos la clara de las yemas de los huevos. Introducimos a la mezcla anterior las yemas y seguimos batiendo. Después, vertemos la leche y seguimos mezclando para integrar todos los ingredientes. Tamizamos la harina con los polvos de hornear y la sal, agregamos esta mezcla y la incorporamos con una espátula, haciendo movimientos envolventes. Aparte, precalentamos el horno a 200 ºC. Por último, batimos las claras a punto de nieve y las añadimos, incorporándolas también haciendo movimientos envolventes suaves. Esto es opcional, puesto que si se agregan los huevos enteros los muffins fáciles de hacer quedarán igualmente deliciosos, aunque menos esponjosos. Para potenciar el sabor de los muffins caseros, se puede añadir esencia de vainilla, jugo de limón o canela en polvo. Una vez lista la masa, ocupamos 3/4 partes de los moldes y horneamos durante 20-30 minutos a 180 ºC con calor arriba y abajo. En función del horno puede que tarden menos en hacerse, de manera que es importante vigilarlos. Pinchamos uno con un palillo y si este sale completamente limpio querrá decir que ya están los muffins caseros y podemos retirarlos del horno. Dejamos que se enfríen sobre una rejilla antes de servirlos. Una vez fríos, podemos decorarlos con azúcar glass, salsa de chocolate, caramelo, dulce de leche, ¡o lo que más nos guste! Como ves, estos son unos muffins fáciles de hacer, rápidos y deliciosos. ¡Anímate a prepararlos y dinos qué te ha parecido la receta!",
+      "ingredientes": "200 gr harina, 200 gr azúcar, 2 cucharaditas polvo para hornear, 2 cucharaditas vainilla, 1 pizca sal, 150 ml leche, 3 huevos, 100 ml mantequilla o aceite",
+      "imagen": "https://img-global.cpcdn.com/recipes/8b71d0ba4c90a02b/680x482cq70/panquecitos-o-cupcakes-caseros-foto-principal.webp",
+      "id": 3
+    }
+  ]
+}
