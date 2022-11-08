@@ -1,7 +1,6 @@
 # Ejercicio 14 Tp de React  
 
-Acceso al proyecto en el siguiente link [Pagina de recetas](https://github.com/facebook/create-react-app).
-
+Acceso al proyecto en el siguiente link 
 ## Librerias usadas 🧮:
 
 - [Bootstrap-v5.2]
@@ -10,7 +9,7 @@ Acceso al proyecto en el siguiente link [Pagina de recetas](https://github.com/f
 ## Para probar el proyecto :
 En una terminal realizar el clonado del repositorio con el siguiente comando
 
-git clone https://colocarlinkgit
+git clone https://github.com/PerezFe/Ej-14-tp-react
 
 *En una terminal realizar el comando npm install y posterior a la instalacion realizar el comando npm start*
 
