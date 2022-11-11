@@ -13,6 +13,8 @@ git clone https://github.com/PerezFe/Ej-14-tp-react
 
 *En una terminal realizar el comando npm install y posterior a la instalacion realizar el comando npm start*
 
+Para probar el backend cambiar a la rama backendServer
+
 ### Autores:
 
 Perez, Fernando Esteban

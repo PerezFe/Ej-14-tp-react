@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Table } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { consultaAPI } from "../helpers/queries";
-import ItemReceta from "./producto/ItemReceta";
+import ItemReceta from "./receta/ItemReceta";
 
 const Administrador = () => {
     const [receta, setReceta] = useState([]);
