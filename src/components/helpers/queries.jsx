@@ -1,4 +1,5 @@
-const URL = "http://localhost:3004/receta";
+const URL = "http://localhost:4000/apireceta/receta";
+const URLusuario = "http://localhost:4000/apireceta/usuario/";
 
 export const consultaAPI = async () => {
   try {
@@ -63,3 +64,36 @@ export const obtenerRecetaAPI = async (id) => {
     console.log(error);
   }
 };
+
+export const crearUsuarioAPI = async (usuario) => {
+  try {
+    const respuesta = await fetch(URLusuario, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(usuario),
+    });
+    return respuesta;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const consultaLogin = async (usuario) =>{
+  try {
+    const respuesta = await fetch(URLusuario);
+    const listaUsuario = await respuesta.json();
+    const usuarioBuscado = listaUsuario.find((usuarioFind)=> usuarioFind.mail === usuario.mail)
+    if(usuarioBuscado){
+      console.log("mail encontrado")
+      if(usuarioBuscado.password === usuario.password){
+        return usuarioBuscado
+      }
+    }else{
+      console.log("Error de usuario")
+    }
+  } catch (error) {
+    console.log(error)
+  }
+}

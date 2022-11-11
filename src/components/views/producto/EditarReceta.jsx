@@ -5,9 +5,8 @@ import { editarRecetaAPI, obtenerRecetaAPI } from "../../helpers/queries";
 import Swal from "sweetalert2";
 import { useEffect } from "react";
 
-
-const EditarReceta = () => {
-    const { id } = useParams();
+const EditarProducto = () => {
+  const { id } = useParams();
 
   const {
     register,
@@ -25,6 +24,21 @@ const EditarReceta = () => {
 
   const navegacion = useNavigate();
 
+  const onSubmit = (datos) => {
+    editarRecetaAPI(id, datos).then((respuesta) => {
+      if (respuesta.status === 200) {
+        Swal.fire(
+          "Receta Actualizada",
+          "Receta corregida correctamente",
+          "success"
+        );
+        navegacion("/administrador");
+      } else {
+        Swal.fire("Ocurrio un error", "Vuelve a intentar", "error");
+      }
+    });
+  };
+
   useEffect(() => {
     obtenerRecetaAPI(id).then((respuesta) => {
       if (respuesta.status === 200) {
@@ -32,23 +46,11 @@ const EditarReceta = () => {
         setValue("pasos", respuesta.dato.pasos);
         setValue("ingredientes", respuesta.dato.ingredientes);
         setValue("imagen", respuesta.dato.imagen);
-      }else{
-        Swal.fire("Ocurrio un error", "Vuelva a intentarlo", "error")
+      } else {
+        Swal.fire("Ocurrio un error", "Vuelva a intentarlo", "error");
       }
     });
   },[]);
-
-  const onSubmit = (datos) => {
-    console.log(datos)
-    editarRecetaAPI(id, datos).then((respuesta) => {
-      if (respuesta.status === 200) {
-        Swal.fire("Receta Actualizada", "", "success");
-        navegacion("/administrador");
-      } else {
-        Swal.fire("Ocurrio un error", "Vuelve a intentar", "error");
-      }
-    });
-  };
 
   return (
     <Container className="mt-4">
@@ -141,7 +143,7 @@ const EditarReceta = () => {
             {errors.imagen?.message}
           </Form.Text>
         </Form.Group>
-        <Button type="submit">
+        <Button className="mt-3" type="submit">
           Editar
         </Button>
       </Form>
@@ -149,4 +151,4 @@ const EditarReceta = () => {
   );
 };
 
-export default EditarReceta;
+export default EditarProducto;
